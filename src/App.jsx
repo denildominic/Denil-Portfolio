@@ -32,7 +32,7 @@ const siteProps = {
   linkedIn: "denildominic",
   medium: "",
   twitter: "denild7",
-  youTube: "denildominic",
+  youTube: "@denildominic",
 };
 
 const primaryColor = "#4E567E";
