@@ -8,12 +8,12 @@ const app = express();
 // Define the port
 const port = 1234;
 
-// Serve static files from the 'build' directory
+// Serve static files from the 'dist' directory
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // Route to serve the index.html file (React app)
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // Start the server and listen on the specified port
