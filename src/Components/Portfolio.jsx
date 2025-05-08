@@ -33,8 +33,8 @@ const projectList = [
   {
     title: "Tetris Game",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Tetris game using python",
+    url: "https://github.com/denildominic/tetris.git",
   },
   {
     title: "Project 2",
